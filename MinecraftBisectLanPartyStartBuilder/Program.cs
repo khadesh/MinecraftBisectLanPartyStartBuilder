@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using TextCopy;
 
+/// <summary>
+/// This program will output lines that need to be inserted into the AHK file found in this codebase.
+/// Then, run that resulting AHK (autohotkey V2) file and use the f8 key in your bisect command terminal 
+/// to input these commands and build your RAD2 minecraft starting base.
+/// </summary>
 class Program
 {
     // ---------- Core helpers (keep fill order: x z y) ----------
