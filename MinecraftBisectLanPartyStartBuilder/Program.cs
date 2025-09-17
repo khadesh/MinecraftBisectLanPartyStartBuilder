@@ -697,8 +697,8 @@ class Program
         {
             foreach (var c in r.Create)
             {
-                console.AppendLine("\"" + c + "\",");
-                clipboard.AppendLine("\"" + c + "\",");
+                console.AppendLine("" + c + "");
+                clipboard.AppendLine("" + c + "");
             }
         }
         if (includeClears && r.Clear != null)
